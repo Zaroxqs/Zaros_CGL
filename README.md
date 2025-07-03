@@ -20,9 +20,9 @@ Also currently allows for custom background image uploading.
 ![image](https://github.com/user-attachments/assets/af25cad7-b176-46a6-a5a8-3432943e7708)
 
 ## Current Plans
-Working on fixing bugs.
-Planning to add top panel customizability.
-Planning design changes.
+Working on fixing bugs.\
+Planning to add top panel customizability.\
+Planning design changes.\
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
