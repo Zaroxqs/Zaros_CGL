@@ -1,4 +1,5 @@
 # Zaro's Custom Games Launcher
+[![CodeFactor](https://www.codefactor.io/repository/github/zaroxqs/zaros_cgl/badge)](https://www.codefactor.io/repository/github/zaroxqs/zaros_cgl)
 
 A custom game / app launcher made with .NET 4.8 using C#.
 
