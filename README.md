@@ -23,7 +23,8 @@ Also currently allows for custom background image uploading.
 ## Current Plans
 Working on fixing bugs.\
 Planning to add top panel customizability.\
-Planning design changes.
+Planning design changes.\
+Planning better steam/eg compatibility.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
