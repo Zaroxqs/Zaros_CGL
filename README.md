@@ -22,7 +22,7 @@ Also currently allows for custom background image uploading.
 ## Current Plans
 Working on fixing bugs.\
 Planning to add top panel customizability.\
-Planning design changes.\
+Planning design changes.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
