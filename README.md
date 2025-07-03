@@ -17,6 +17,8 @@ Includes a clearing button to clear the UI and persistent data.
 
 Also currently allows for custom background image background uploading.
 
+![image](https://github.com/user-attachments/assets/af25cad7-b176-46a6-a5a8-3432943e7708)
+
 ## Current Plans
 Working on fixing bugs.
 Planning to add top panel customizability.
