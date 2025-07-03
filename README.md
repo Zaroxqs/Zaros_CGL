@@ -15,7 +15,7 @@ When an icon is clicked in the app it attempts to open the associated .exe. If n
 
 Includes a clearing button to clear the UI and persistent data.
 
-Also currently allows for custom background image background uploading.
+Also currently allows for custom background image uploading.
 
 ![image](https://github.com/user-attachments/assets/af25cad7-b176-46a6-a5a8-3432943e7708)
 
