@@ -1,6 +1,6 @@
 ﻿namespace Custom_games_launcher
 {
-    partial class Form1
+    partial class Launcher
     {
         /// <summary>
         /// Required designer variable.
@@ -28,15 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Launcher));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.panelButtons = new System.Windows.Forms.Panel();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.BackgroundButton = new System.Windows.Forms.Button();
             this.ClearButton = new System.Windows.Forms.Button();
             this.FolderButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
+            this.PanelButtons = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,27 +49,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(700, 54);
             this.panel1.TabIndex = 1;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            // 
-            // folderBrowserDialog1
-            // 
-            this.folderBrowserDialog1.Description = "Select games folder";
-            // 
-            // panelButtons
-            // 
-            this.panelButtons.AutoScroll = true;
-            this.panelButtons.BackColor = System.Drawing.Color.Transparent;
-            this.panelButtons.Location = new System.Drawing.Point(13, 88);
-            this.panelButtons.Name = "panelButtons";
-            this.panelButtons.Size = new System.Drawing.Size(675, 500);
-            this.panelButtons.TabIndex = 2;
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            this.openFileDialog1.Filter = "Image|*.png, *jpg";
-            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // BackgroundButton
             // 
@@ -141,20 +119,29 @@
             this.ExitButton.UseVisualStyleBackColor = false;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
-            // Form1
+            // PanelButtons
+            // 
+            this.PanelButtons.AutoScroll = true;
+            this.PanelButtons.BackColor = System.Drawing.Color.Transparent;
+            this.PanelButtons.Location = new System.Drawing.Point(13, 88);
+            this.PanelButtons.Name = "PanelButtons";
+            this.PanelButtons.Size = new System.Drawing.Size(675, 500);
+            this.PanelButtons.TabIndex = 2;
+            // 
+            // Launcher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(700, 600);
             this.ControlBox = false;
-            this.Controls.Add(this.panelButtons);
+            this.Controls.Add(this.PanelButtons);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "Launcher";
             this.Text = "Launcher";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.Launcher_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -165,11 +152,9 @@
         private System.Windows.Forms.Button ExitButton;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button FolderButton;
-        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
-        private System.Windows.Forms.Panel panelButtons;
+        private System.Windows.Forms.Panel PanelButtons;
         private System.Windows.Forms.Button ClearButton;
         private System.Windows.Forms.Button BackgroundButton;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
