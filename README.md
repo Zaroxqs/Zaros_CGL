@@ -1,6 +1,6 @@
 # Zaro's Custom Games Launcher
 
-A custom game / app launcher made with the .NET Framework 4.8
+A custom game / app launcher made with .NET 4.8 using C#.
 
 ## Downloads
 [Latest Release | Windows (x86-64)](https://github.com/Zaroxqs/Zaros_CGL/releases/download/v1.0.0/Zaros.CGL.zip)
