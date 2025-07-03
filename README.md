@@ -4,7 +4,7 @@
 A custom game / app launcher made with .NET 4.8 using C#.
 
 ## Downloads
-[Latest Release | Windows (x86-64)](https://github.com/Zaroxqs/Zaros_CGL/releases/download/v1.0.0/Zaros.CGL.zip)
+[Latest Release | Windows (x86-64)](https://github.com/Zaroxqs/Zaros_CGL/releases/download/v1/Zaros.CGL.zip)
 
 ## Features
 Currently lets you select a folder on your computer, which it will use to scan the subdirectories in there and save them into a list, as well as into a text file for persistent data. 
