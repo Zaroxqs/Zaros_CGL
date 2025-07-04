@@ -20,6 +20,9 @@ Also currently allows for custom background image uploading.
 
 ![image](https://github.com/user-attachments/assets/af25cad7-b176-46a6-a5a8-3432943e7708)
 
+
+![image](https://github.com/user-attachments/assets/09f2df34-9364-46d2-968c-2bbcc0ba29e0)
+
 ## Current Plans
 Working on fixing bugs.\
 Planning to add top panel customizability.\
